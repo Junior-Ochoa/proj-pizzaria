@@ -1,8 +1,0 @@
-beekeeper - postgres
-
-user > postgres
-password > admin
-defaultdatabase > pizzaria
-
-host - localhost
-porta - 5432
