@@ -32,9 +32,10 @@ export default function Home() {
                   type="submit"
                   loading={false}
                   >   
-                    Cadastrar
+                    Acessar
                   </Button>
             </form>
+              <a className={styles.text}>Nao possui uma conta? Cadastre-se</a>
           </div>
        </div>
       </>
