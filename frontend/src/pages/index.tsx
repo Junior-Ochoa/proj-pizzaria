@@ -6,7 +6,8 @@ import styles from '../../styles/home.module.scss';
 import {Input} from '../components/ui/Input'
 import {Button} from '../components/ui/Button'
 import Link from 'next/link';
-import {AuthContext} from '../contexts/AuthContext';
+import {AuthContext} from '../contexts/AuthContext'
+import { toast } from 'react-toastify'
 
 import logoImg from '../../public/logo.svg';
 
@@ -23,7 +24,7 @@ export default function Home() {
     event.preventDefault();
 
     if(email === '' || password === ''){
-      alert("PREENCHA OS DADOS")
+      toast.warning('Preencha todos os campos')
       return;
     }
 
