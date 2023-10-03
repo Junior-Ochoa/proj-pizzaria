@@ -1,5 +1,4 @@
 
-
 .containerCenter{
   min-height: 100vh;
   display: flex;
@@ -42,8 +41,9 @@
   cursor: pointer;
 }
 
-@media(max-width: 620px){
-    .login{
-      width: 90%;
-    }
+
+@media (max-width: 620px) {
+  .login{
+    width: 90%;
+  }
 }
