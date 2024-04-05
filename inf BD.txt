@@ -6,3 +6,8 @@ defaultdatabase > pizzaria
 
 host - localhost
 porta - 5432
+
+logar site
+
+teste@teste.com	
+123456
